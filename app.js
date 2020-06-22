@@ -4,6 +4,7 @@
     function setUpListeners(){
         $calculatorButton.addEventListener("click", () => {
             let calculator = CalculatorManager.createCalculator();
+            
         })
     }
    

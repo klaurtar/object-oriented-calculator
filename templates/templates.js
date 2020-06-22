@@ -1,14 +1,14 @@
 const calculatorTemplate = `
 <div class="totalBox">
-    <input type="text">
+    <input disabled id="calcDisplay" type="text">
 </div>
 
 <div class="mathematicsButtons">
-    <button id="plus">+</button>
-    <button id="minus">-</button>
-    <button id="multiply">x</button>
-    <button id="divide">÷</button>
-    <button id="1">1</button>
+    <button data-math="add" id="plus">+</button>
+    <button data-math="minus" id="minus">-</button>
+    <button data-math="multiply" id="multiply">x</button>
+    <button data-math="divide" id="divide">÷</button>
+    <button id="oneButton">1</button>
     <button id="2">2</button>
     <button id="3">3</button>
     <button id="4">4</button>
@@ -18,7 +18,7 @@ const calculatorTemplate = `
     <button id="8">8</button>
     <button id="9">9</button>
     <button id="0">0</button>
-    <button id="decimal">.</button>
-    <button id="clear">C</button>
-    <button id="equal">=</button>
+    <button data-math="decimal" id="decimal">.</button>
+    <button data-math="clear" id="clear">C</button>
+    <button data-math="equal" id="equal">=</button>
 </div>`;
